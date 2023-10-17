@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exe_3-loging (2)" />
+        <module name="exe_4-service_one" />
+        <module name="exe_3-loging (1)" />
+        <module name="exe_4-service_two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exe_3-loging" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exe_3-loging" options="-parameters" />
+      <module name="exe_3-loging (1)" options="-parameters" />
+      <module name="exe_3-loging (2)" options="-parameters" />
+      <module name="exe_4-service_one" options="-parameters" />
+      <module name="exe_4-service_two" options="-parameters" />
+    </option>
+  </component>
+</project>
